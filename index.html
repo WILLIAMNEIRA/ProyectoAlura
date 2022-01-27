@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="PROYECTO A CARGO DE: WILLIAM ANDRES MONROY NEIRA - Estudiante de alura latan" />
+  <link rel="Stylesheet" href="app/css/styles.css" />
+  <link rel="shortcut icon" href="/App/img/favi.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+  <title>Enciptador de texto</title>
+</head>
+
+<body>
+  <div class="textoPrincipal">
+    <h1>Código encriptado</h1>
+  </div>
+
+  <div class="encriptador">
+    <h1>Encriptar texto</h1>
+    <!--Solo acepta letras minusculas-->
+    <input onkeypress="return(event.charCode >= 97 && event.charCode <= 122)||(event.charCode==32)" type="text"
+      name="codigoEncriptado" id="codigoEncriptado" />
+
+    <div class="textoCorto">
+      <p>Solo letras minúsculas y sin asento</p>
+    </div>
+    <button onclick="Encriptar()" class="buttonEncriptar">Encriptar</button>
+    <button onclick="Desencriptar()" class="buttonDesencriptar">
+      Desencriptar
+    </button>
+    <div class="desencriptar">
+      <input type="text" name="MensajeEncriptado" id="MensajeEncriptado" readonly />
+      <button onclick="Copiar()" class="buttonCopiar">Copiar</button>
+      <button onclick="Limpiar()" class="buttonLimpiar">Limpiar</button>
+    </div>
+    <p>Copyrigth © 2022 ® William Monroy</p>
+    <div class="alura">
+      <p>Alura latam</p>
+    </div>
+  </div>
+
+  <script src="app/js/script.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>

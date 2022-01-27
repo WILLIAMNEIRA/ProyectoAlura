@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/fondo.jpg) no-repeat center top;
+  background-size: cover;
+  height: 105vh;
+}
+
+.encriptador {
+  /*CAJA*/
+  width: 800px;
+  height: 420px;
+  backdrop-filter: blur(50px);
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 70px 50px;
+}
+.encriptador:hover {
+  box-shadow: 0 0 50px rgb(59, 47, 161), 0 0 30px rgb(3, 234, 241),
+    0 0 80px #fff;
+}
+.encriptador h1 {
+  /*encriptar texto*/
+  text-align: center;
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  margin-top: -5%;
+}
+.encriptador input {
+  width: 680px;
+  padding: 15px;
+  background-color: #7c34342f;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-family: "Shadows Into Light", cursive;
+}
+.textoCorto {
+  margin-top: -15px;
+}
+.desencriptar input {
+  color: #fa25fa;
+  margin-top: 15px;
+}
+.textoPrincipal {
+  /*código encriptado*/
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 50px;
+  margin-top: -50px;
+  font-family: "Special Elite", cursive;
+  text-shadow: 4px 4px #558abb;
+}
+
+.encriptador button {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  background: linear-gradient(102deg, #040f70 40%, #260bd4 60%);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.encriptador button:hover {
+  background: linear-gradient(102deg, #260bd4 55%, #040f70 45%);
+  box-shadow: 0 0 10px rgb(59, 47, 161), 0 0 10px rgb(3, 234, 241),
+    0 0 10px #fff;
+}
+
+.desencriptar button {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  background: linear-gradient(102deg, #040f70 40%, #260bd4 60%);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+p {
+  margin-left: 250px;
+  font-size: 13px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.alura {
+  margin-left: 65px;
+  margin-top: -20px;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
