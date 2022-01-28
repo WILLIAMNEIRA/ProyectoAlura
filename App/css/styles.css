@@ -28,7 +28,7 @@ body {
   /*encriptar texto*/
   text-align: center;
   font-size: 30px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue";
   margin-top: -5%;
 }
 .encriptador input {
@@ -40,7 +40,7 @@ body {
   outline: none;
   border: none;
   border-radius: 8px;
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Shadows Into Light";
 }
 .textoCorto {
   margin-top: -15px;
@@ -56,7 +56,7 @@ body {
   font-size: 30px;
   padding-top: 50px;
   margin-top: -50px;
-  font-family: "Special Elite", cursive;
+  font-family: "Special Elite";
   text-shadow: 4px 4px #558abb;
 }
 
